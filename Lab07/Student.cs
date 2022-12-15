@@ -36,7 +36,7 @@ namespace Lab07
         }
         public void Print() 
         {
-            Console.WriteLine($"Человек: {Name} \nПол: {Gender}\nДата рождения: {Birthday}\nАдрес: {Adress}\nПочта: {Email}\nГруппа: {Group}\nКурс:{Course}\nСредняя оценка: {AvgRate()}");
+            Console.WriteLine($"Студент: {Name} \nПол: {Gender}\nДата рождения: {Birthday}\nАдрес: {Adress}\nПочта: {Email}\nГруппа: {Group}\nКурс:{Course}\nСредняя оценка: {AvgRate()}");
         }
     }
 }
